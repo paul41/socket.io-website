@@ -147,7 +147,7 @@ Notice that I initialize a new instance of `socket.io` by passing the `http` (th
 Now in index.html add the following snippet before the `</body>` (end body tag):
 
 ```html
-<script src="/socket.io/socket.io.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
 <script>
   var socket = io();
 </script>
